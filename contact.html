@@ -1,0 +1,91 @@
+<!--
+Name: Juniya Morton
+File: contact.html
+Date: 05/06/2026
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventFlow | Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+
+    <h2>Contact Form</h2>
+
+    <form>
+
+        <label>Name:</label>
+        <input type="text" required>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <label>Phone Number:</label>
+        <input type="tel">
+
+        <label>Event Type:</label>
+        <select>
+            <option>Wedding</option>
+            <option>Conference</option>
+            <option>Concert</option>
+        </select>
+
+        <label>Preferred Contact:</label>
+
+        <div>
+            <input type="radio" name="contact">
+            Email
+
+            <input type="radio" name="contact">
+            Phone
+        </div>
+
+        <label>Services Needed:</label>
+
+        <div>
+            <input type="checkbox">
+            Catering
+
+            <input type="checkbox">
+            Decorations
+        </div>
+
+        <label>Message:</label>
+
+        <textarea rows="5"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>Contact EventFlow Today</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
